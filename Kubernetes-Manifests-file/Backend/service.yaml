@@ -7,6 +7,6 @@ spec:
   ports:
   - port: 3500
     protocol: TCP
-  type: nodeport
+  type: NodePort
   selector:
     role: api
